@@ -3,7 +3,7 @@ import s from "./styles.module.css";
 import cn from "classnames";
 
 interface Props extends HTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "text";
+  variant?: "primary" | "secondary" | "text" | "outlined";
   size?: "large" | "medium" | "small";
   title: string;
   starticon?: React.ReactNode;
@@ -27,6 +27,7 @@ const Button = forwardRef<HTMLButtonElement, Props>(
       {
         [s.primary]: variant === "primary",
         [s.secondary]: variant === "secondary",
+        [s.outlined]: variant === "outlined",
         [s.text]: variant === "text",
         [s.large]: size === "large",
         [s.medium]: size === "medium",

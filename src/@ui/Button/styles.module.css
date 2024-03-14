@@ -9,6 +9,10 @@
   .secondary {
     @apply bg-[#FFFFFF] text-[#1363FF] border border-[#1363FF] rounded-lg;
   }
+
+  .outlined {
+    @apply bg-transparent text-[#1363FF] border border-[#1363FF] rounded-full;
+  }
   
   .text {
     @apply text-[#000] border-none bg-transparent !p-0;

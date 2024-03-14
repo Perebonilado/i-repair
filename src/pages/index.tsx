@@ -4,6 +4,7 @@ import BreadCrumb from "@/@shared/BreadCrumbs";
 import Footer from "@/@shared/Footer";
 import GradientText from "@/@shared/GradientText";
 import Hamburger from "@/@shared/Hamburger";
+import Navbar from "@/@shared/Navbar";
 import Button from "@/@ui/Button";
 import Container from "@/@ui/Container";
 import ArrowDiagonalUpRightIcon from "@/icons/ArrowDiagonalUpRightIcon";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <>
       <AppHead />
+      <Navbar />
       <Container>
         <BreadCrumb />
         <FacebookIcon />
@@ -40,7 +42,7 @@ export default function Home() {
 
         <Hamburger />
 
-        <div className="p-5">
+        <div>
           <Accordion
             data={[
               {
