@@ -1,3 +1,5 @@
+import Accordion from "@/@shared/Accordion";
+import AccordionItem from "@/@shared/AccordionItem";
 import AppHead from "@/@shared/AppHead";
 import GradientText from "@/@shared/GradientText";
 import Hamburger from "@/@shared/Hamburger";
@@ -32,6 +34,31 @@ export default function Home() {
         </div>
 
         <Hamburger />
+
+        <div className="p-5">
+          <Accordion
+            data={[
+              {
+                body: `
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ipsum dolorem nesciunt nisi earum at ratione voluptate iste amet rem esse minima ullam cum, harum expedita eius rerum laboriosam beatae in ab veritatis. Eius quae voluptates dolorem, tempore numquam voluptate pariatur nobis esse delectus mollitia quisquam assumenda temporibus inventore. Vero?`,
+                title: "Fix your truck",
+                id: 1,
+              },
+              {
+                body: `
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ipsum dolorem nesciunt nisi earum at ratione voluptate iste amet rem esse minima ullam cum, harum expedita eius rerum laboriosam beatae in ab veritatis. Eius quae voluptates dolorem, tempore numquam voluptate pariatur nobis esse delectus mollitia quisquam assumenda temporibus inventore. Vero?`,
+                title: "Fix your truck",
+                id: 2,
+              },
+              {
+                body: `
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ipsum dolorem nesciunt nisi earum at ratione voluptate iste amet rem esse minima ullam cum, harum expedita eius rerum laboriosam beatae in ab veritatis. Eius quae voluptates dolorem, tempore numquam voluptate pariatur nobis esse delectus mollitia quisquam assumenda temporibus inventore. Vero?`,
+                title: "Fix your truck",
+                id: 3,
+              },
+            ]}
+          />
+        </div>
       </Container>
     </>
   );
