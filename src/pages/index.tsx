@@ -1,18 +1,22 @@
 import Accordion from "@/@shared/Accordion";
-import AccordionItem from "@/@shared/AccordionItem";
 import AppHead from "@/@shared/AppHead";
+import BreadCrumb from "@/@shared/BreadCrumbs";
 import GradientText from "@/@shared/GradientText";
 import Hamburger from "@/@shared/Hamburger";
 import Button from "@/@ui/Button";
 import Container from "@/@ui/Container";
 import ArrowDiagonalUpRightIcon from "@/icons/ArrowDiagonalUpRightIcon";
 import FacebookIcon from "@/icons/FacebookIcon";
+import { usePathname } from "next/navigation";
 
 export default function Home() {
+  const pathname = usePathname();
+  console.log(pathname);
   return (
     <>
       <AppHead />
       <Container>
+        <BreadCrumb />
         <FacebookIcon />
         <GradientText
           title="Full-service repair"

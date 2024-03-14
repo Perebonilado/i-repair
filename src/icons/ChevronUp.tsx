@@ -12,7 +12,7 @@ const ChevronUp: FC = () => {
       <path
         d="M1 7L5.26812 1.30918C5.38406 1.15459 5.61594 1.15459 5.73188 1.30918L10 7"
         stroke="url(#paint0_linear_115_590)"
-        stroke-width="0.720649"
+        strokeWidth="0.720649"
       />
       <defs>
         <linearGradient
@@ -23,8 +23,8 @@ const ChevronUp: FC = () => {
           y2="8.28806"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.28" stop-color="#1363FF" />
-          <stop offset="0.835" stop-color="#032D80" />
+          <stop offset="0.28" stopColor="#1363FF" />
+          <stop offset="0.835" stopColor="#032D80" />
         </linearGradient>
       </defs>
     </svg>

@@ -12,16 +12,29 @@ interface Props extends HTMLAttributes<HTMLButtonElement> {
 }
 
 const Button = forwardRef<HTMLButtonElement, Props>(
-  ({ variant = "primary", size = "medium", title, fullWidth = false, ...props }, ref) => {
-    const rootClassName = cn(`${s.root}`, {
-      [s.primary]: variant === "primary",
-      [s.secondary]: variant === "secondary",
-      [s.text]: variant === "text",
-      [s.large]: size === "large",
-      [s.medium]: size === "medium",
-      [s.small]: size === "small",
-      [s.fullWidth]: fullWidth
-    });
+  (
+    {
+      variant = "primary",
+      size = "medium",
+      title,
+      fullWidth = false,
+      ...props
+    },
+    ref
+  ) => {
+    const rootClassName = cn(
+      `${s.root}`,
+      {
+        [s.primary]: variant === "primary",
+        [s.secondary]: variant === "secondary",
+        [s.text]: variant === "text",
+        [s.large]: size === "large",
+        [s.medium]: size === "medium",
+        [s.small]: size === "small",
+        [s.fullWidth]: fullWidth,
+      },
+      props.className
+    );
 
     return (
       <button ref={ref} {...props} className={rootClassName}>
