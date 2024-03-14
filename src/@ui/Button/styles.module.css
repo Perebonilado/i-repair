@@ -1,0 +1,31 @@
+.root {
+    @apply font-medium flex items-center gap-4 justify-center;
+  }
+  
+  .primary {
+    @apply text-white border border-[#1363FF] bg-[#1363FF] rounded-lg;
+  }
+  
+  .secondary {
+    @apply bg-[#FFFFFF] text-[#1363FF] border border-[#1363FF] rounded-lg;
+  }
+  
+  .text {
+    @apply text-[#000] border-none bg-transparent !p-0;
+  }
+  
+  .small {
+    @apply text-sm px-2 py-1;
+  }
+  
+  .medium {
+    @apply text-base px-3 py-1;
+  }
+  
+  .large {
+    @apply text-lg px-8 py-3;
+  }
+  
+  .fullWidth {
+    @apply w-full
+  }
