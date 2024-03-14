@@ -5,7 +5,7 @@ import React, { FC } from "react";
 
 const FullServiceRepair: FC = () => {
   return (
-    <section className="bg-[#EAF1FF] pb-24">
+    <section className="bg-[#EAF1FF] pb-32">
       <Container>
         <p className="text-[#959BA6] text-center">Trusted tech services</p>
         <div className="mt-20 flex gap-6 max-md:flex-col-reverse max-md:items-center">
@@ -24,7 +24,7 @@ const FullServiceRepair: FC = () => {
               are here to help.
             </p>
           </div>
-          <div style={{ flex: 1 }} className="relative w-full max-md:!min-h-64">
+          <div style={{ flex: 1 }} className="relative w-full min-h-64 max-md:!min-h-64">
             <Image
               layout="fill"
               objectFit="contain"

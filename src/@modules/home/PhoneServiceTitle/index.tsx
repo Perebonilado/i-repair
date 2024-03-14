@@ -9,7 +9,7 @@ const PhoneServiceTitle: FC<Props> = ({ titleOne, titleTwo }) => {
   return (
     <div>
       <div className="h-[4px] w-16 bg-[#1363FF] mb-2"></div>
-      <p className="text-lg font-bolf">
+      <p className="text-lg font-bold">
         <span>
           {titleOne} {""}
         </span>

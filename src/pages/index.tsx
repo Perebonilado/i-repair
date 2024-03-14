@@ -3,6 +3,7 @@ import FullServiceRepair from "@/@modules/home/FullServiceRepair";
 import PhoneLaptopService from "@/@modules/home/PhoneLaptopServices";
 import AppLayout from "@/layout/AppLayout";
 import phoneServiceData from "../json-data/phone-service.json";
+import WhyChooseUs from "@/@modules/home/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Banner />
         <FullServiceRepair />
         <PhoneLaptopService data={phoneServiceData} />
+        <WhyChooseUs />
       </AppLayout>
     </>
   );
