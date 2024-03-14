@@ -1,0 +1,59 @@
+[
+  {
+    "titleOne": "Phone",
+    "titleTwo": "services",
+    "accordionData": [
+      {
+        "id": 1,
+        "body": "string",
+        "title": "Battery"
+      },
+      {
+        "id": 2,
+        "body": "string",
+        "title": "Charging port"
+      },
+      {
+        "id": 3,
+        "body": "string",
+        "title": "Speaker"
+      },
+      {
+        "id": 4,
+        "body": "string",
+        "title": "Microphone"
+      },
+      {
+        "id": 5,
+        "body": "string",
+        "title": "Screen"
+      }
+    ]
+  },
+  {
+    "titleOne": "Laptop",
+    "titleTwo": "services",
+    "accordionData": [
+      {
+        "id": 1,
+        "body": "string",
+        "title": "Hardware installation"
+      },
+      {
+        "id": 2,
+        "body": "string",
+        "title": "Charging port"
+      },
+      {
+        "id": 3,
+        "body": "string",
+        "title": "Screen"
+      },
+      {
+        "id": 4,
+        "body": "string",
+        "title": "Keyboard"
+      }
+    ]
+  }
+]

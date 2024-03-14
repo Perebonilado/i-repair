@@ -1,26 +1,17 @@
 import Banner from "@/@modules/home/Banner";
 import FullServiceRepair from "@/@modules/home/FullServiceRepair";
-import Accordion from "@/@shared/Accordion";
-import AppHead from "@/@shared/AppHead";
-import BreadCrumb from "@/@shared/BreadCrumbs";
-import Footer from "@/@shared/Footer";
-import GradientText from "@/@shared/GradientText";
-import Hamburger from "@/@shared/Hamburger";
-import Navbar from "@/@shared/Navbar";
-import Button from "@/@ui/Button";
-import Container from "@/@ui/Container";
-import ArrowDiagonalUpRightIcon from "@/icons/ArrowDiagonalUpRightIcon";
-import FacebookIcon from "@/icons/FacebookIcon";
+import PhoneLaptopService from "@/@modules/home/PhoneLaptopServices";
 import AppLayout from "@/layout/AppLayout";
+import phoneServiceData from "../json-data/phone-service.json";
 
 export default function Home() {
-
   return (
     <>
-     <AppLayout>
-      <Banner />
-      <FullServiceRepair />
-     </AppLayout>
+      <AppLayout>
+        <Banner />
+        <FullServiceRepair />
+        <PhoneLaptopService data={phoneServiceData} />
+      </AppLayout>
     </>
   );
 }
