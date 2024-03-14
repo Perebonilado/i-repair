@@ -1,6 +1,7 @@
 import Accordion from "@/@shared/Accordion";
 import AppHead from "@/@shared/AppHead";
 import BreadCrumb from "@/@shared/BreadCrumbs";
+import Footer from "@/@shared/Footer";
 import GradientText from "@/@shared/GradientText";
 import Hamburger from "@/@shared/Hamburger";
 import Button from "@/@ui/Button";
@@ -64,6 +65,7 @@ export default function Home() {
           />
         </div>
       </Container>
+      <Footer />
     </>
   );
 }
