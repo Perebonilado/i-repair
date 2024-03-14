@@ -1,3 +1,4 @@
+import Banner from "@/@modules/home/Banner";
 import Accordion from "@/@shared/Accordion";
 import AppHead from "@/@shared/AppHead";
 import BreadCrumb from "@/@shared/BreadCrumbs";
@@ -16,7 +17,7 @@ export default function Home() {
   return (
     <>
      <AppLayout>
-      
+      <Banner />
      </AppLayout>
     </>
   );

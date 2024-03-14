@@ -1,5 +1,5 @@
 .textStyling {
-  background-image: linear-gradient(to right, #1363ff, #002265 20%);
+  background-image: linear-gradient(to right, #1363ff, #002265 50%);
   -webkit-background-clip: text;
   color: transparent;
 }
