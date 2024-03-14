@@ -30,14 +30,13 @@ const MobileNav: FC<Props> = ({ handleClose, isSideNavOpen }) => {
 
   return (
     <div className={rootStyling}>
-      <div className="flex flex-col h-screen items-center mt-32 gap-6">
+      <div className="flex flex-col items-center mt-32 gap-6 pb-10 border-b-2 border-b-gray-500">
         <Button title="Phone services" variant="text" className="!text-lg" />
         <Button title="Laptop services" variant="text" className="!text-lg" />
         <Button title="Our policy" variant="text" className="!text-lg" />
 
         <p className="text-[#1363FF] mt-20">For pricing and inquiries</p>
         <Button title="Contact us" size="large" />
-        <div className="w-full h-[1px] bg-slate-500 mt-8"></div>
       </div>
     </div>
   );

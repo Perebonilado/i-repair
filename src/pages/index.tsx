@@ -4,6 +4,7 @@ import PhoneLaptopService from "@/@modules/home/PhoneLaptopServices";
 import AppLayout from "@/layout/AppLayout";
 import phoneServiceData from "../json-data/phone-service.json";
 import WhyChooseUs from "@/@modules/home/WhyChooseUs";
+import OurCustomers from "@/@modules/home/OurCustomers";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <FullServiceRepair />
         <PhoneLaptopService data={phoneServiceData} />
         <WhyChooseUs />
+        <OurCustomers />
       </AppLayout>
     </>
   );
