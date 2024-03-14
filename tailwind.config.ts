@@ -6,6 +6,7 @@ const config: Config = {
     "./src/@modules/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/@shared/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/@ui/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/layout/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
