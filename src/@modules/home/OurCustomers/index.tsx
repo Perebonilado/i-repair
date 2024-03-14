@@ -2,6 +2,7 @@ import Button from "@/@ui/Button";
 import Container from "@/@ui/Container";
 import React, { FC } from "react";
 import CustomerReviewItem from "../CustomerReviewItem";
+import ContactUs from "../ContactUs";
 
 const reviews = [
   "I was worried  about waiting too long but it was super convenient getting my iPhone fixed here",
@@ -24,19 +25,6 @@ const OurCustomers: FC = () => {
               <CustomerReviewItem review={rev} key={idx} />
             ))}
           </div>
-        </div>
-
-        <div className="flex flex-col items-center text-center text-white py-14">
-          <p className="font-semibold">
-            The Trusted tech repair service in the DMV region.
-          </p>
-          <p className="text-sm mt-8 mb-3">For pricing and inquiries:</p>
-          <Button
-            title="Contact us"
-            variant="secondary"
-            size="large"
-            className="!px-14"
-          />
         </div>
       </Container>
     </section>

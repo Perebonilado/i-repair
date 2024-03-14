@@ -5,6 +5,7 @@ import AppLayout from "@/layout/AppLayout";
 import phoneServiceData from "../json-data/phone-service.json";
 import WhyChooseUs from "@/@modules/home/WhyChooseUs";
 import OurCustomers from "@/@modules/home/OurCustomers";
+import ContactUs from "@/@modules/home/ContactUs";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <PhoneLaptopService data={phoneServiceData} />
         <WhyChooseUs />
         <OurCustomers />
+        <ContactUs />
       </AppLayout>
     </>
   );
