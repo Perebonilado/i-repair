@@ -45,6 +45,7 @@ const Navbar: FC = () => {
                 />
               </a>
               <Hamburger
+                isSideNavOpen={isMobileNav}
                 onClick={() => {
                   setIsMobileNav(!isMobileNav);
                 }}
@@ -53,7 +54,12 @@ const Navbar: FC = () => {
           </div>
         </Container>
       </div>
-      {isMobileNav && <MobileNav handleClose={() => setIsMobileNav(false)} />}
+      {
+        <MobileNav
+          isSideNavOpen={isMobileNav}
+          handleClose={() => setIsMobileNav(false)}
+        />
+      }
     </>
   );
 };
