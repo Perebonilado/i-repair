@@ -1,4 +1,11 @@
 
 .bannerBg {
     background: #ffffff url(/assets/home/banner-bg.png)  no-repeat center center/cover;
+    background-position: right 0% bottom 5% !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .bannerBg {
+        background-position: right 0% bottom 0%;
+    }
 }

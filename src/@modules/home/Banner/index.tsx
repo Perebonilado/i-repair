@@ -6,7 +6,7 @@ import s from './styles.module.css'
 
 const Banner: FC = () => {
   return (
-    <section className={`${s.bannerBg} min-h-screen flex flex-col gap-36 text-center items-center justify-center`}>
+    <section className={`${s.bannerBg} min-h-screen flex flex-col gap-32 text-center items-center pt-24`}>
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-4xl font-bold">
           Restore your device with{" "}

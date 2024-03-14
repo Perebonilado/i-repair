@@ -1,4 +1,5 @@
 import Banner from "@/@modules/home/Banner";
+import FullServiceRepair from "@/@modules/home/FullServiceRepair";
 import Accordion from "@/@shared/Accordion";
 import AppHead from "@/@shared/AppHead";
 import BreadCrumb from "@/@shared/BreadCrumbs";
@@ -18,6 +19,7 @@ export default function Home() {
     <>
      <AppLayout>
       <Banner />
+      <FullServiceRepair />
      </AppLayout>
     </>
   );
