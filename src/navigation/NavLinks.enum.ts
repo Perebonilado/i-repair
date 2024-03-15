@@ -1,4 +1,4 @@
 export enum NavLinks {
   HOME = "/",
-  POLICY = "/policy",
+  POLICY = "/our-policy",
 }

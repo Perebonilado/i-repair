@@ -6,10 +6,12 @@ import phoneServiceData from "../json-data/phone-service.json";
 import WhyChooseUs from "@/@modules/home/WhyChooseUs";
 import OurCustomers from "@/@modules/home/OurCustomers";
 import ContactUs from "@/@modules/home/ContactUs";
+import AppHead from "@/@shared/AppHead";
 
 export default function Home() {
   return (
     <>
+      <AppHead />
       <AppLayout>
         <Banner />
         <FullServiceRepair />

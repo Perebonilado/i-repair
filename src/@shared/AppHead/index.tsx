@@ -7,7 +7,11 @@ interface Props {
 }
 
 const AppHead: FC<Props> = ({ title }) => {
-  return <Head>iRepair {title && `| ${title}`}</Head>;
+  return (
+    <Head>
+      <title>iRepair {title && `| ${title}`}</title>
+    </Head>
+  );
 };
 
 export default AppHead;

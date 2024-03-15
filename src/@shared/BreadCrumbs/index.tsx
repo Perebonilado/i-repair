@@ -2,6 +2,10 @@ import React, { FC } from "react";
 import BreadCrumbItem from "../BreadCrumbItem";
 import { usePathname } from "next/navigation";
 import ChevronUp from "@/icons/ChevronUp";
+import {
+  capitalizeFirstLetterOfEachWordInString,
+  replaceHyphensWithSpaces,
+} from "@/utils";
 
 const BreadCrumb: FC = () => {
   const paths = usePathname();
@@ -22,7 +26,13 @@ const BreadCrumb: FC = () => {
 
         return (
           <div key={index}>
-            <BreadCrumbItem isActive={isActive} link={href} title={itemTitle} />
+            <BreadCrumbItem
+              isActive={isActive}
+              link={href}
+              title={replaceHyphensWithSpaces(
+                capitalizeFirstLetterOfEachWordInString(itemTitle)
+              )}
+            />
             {pathNames.length !== index + 1 && (
               <div className="rotate-45">
                 <ChevronUp />

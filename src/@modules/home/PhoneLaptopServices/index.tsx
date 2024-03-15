@@ -17,7 +17,7 @@ interface Props {
 
 const PhoneLaptopService: FC<Props> = ({ data }) => {
   return (
-    <section>
+    <section id="services">
       <Container>
         <div className="flex flex-col gap-16 py-20">
           {data.map((item, idx) => {

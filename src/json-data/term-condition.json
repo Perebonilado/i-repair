@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Service Agreement",
+    "body": "By availing of our repair services, you agree to abide by the terms and conditions outlined herein. This agreement constitutes a legally binding contract between [Your Business Name] and the customer."
+  },
+  {
+    "title": "Service Limitations",
+    "body": "iRepair provides repair services for hardware and software issues of phones and laptops. However, we do not guarantee the resolution of all problems due to the complexity of some issues or pre-existing damages."
+  },
+  {
+    "title": "Repair Estimates",
+    "body": "Prior to initiating any repair work, iRepair will provide an estimated cost for the services required. This estimate is subject to change based on the diagnosis of the device upon inspection."
+  },
+  {
+    "title": "Warranty",
+    "body": "We offer a limited warranty on repairs performed by our technicians. The warranty period and coverage vary depending on the type of repair conducted. Any subsequent damage or malfunction caused by misuse or mishandling of the device will void the warranty."
+  },
+  {
+    "title": "Data Backup",
+    "body": "It is the customer's responsibility to back up all data stored on the device before submitting it for repair. iRepair is not liable for any loss of data during the repair process."
+  },
+  {
+    "title": "Payment Terms",
+    "body": "Payment for repair services is due upon completion of the repair work. We accept cash, credit/debit cards, or other agreed-upon payment methods. Failure to pay for services rendered may result in additional charges and legal action."
+  },
+  {
+    "title": "Liability Limitation",
+    "body": "iRepair shall not be held liable for any indirect, incidental, or consequential damages arising from the use or inability to use the repaired device, including but not limited to loss of profits, data, or business interruption."
+  },
+  {
+    "title": "Confidentiality",
+    "body": "We respect the privacy of our customers and treat all information provided during the repair process with strict confidentiality. Personal data stored on devices will not be accessed or disclosed to third parties without consent, except as required by law."
+  },
+  {
+    "title": "Right to Refuse Service",
+    "body": "iRepair reserves the right to refuse service to any customer for any reason, including but not limited to abusive behavior, non-compliance with our terms and conditions, or suspicion of illegal activity."
+  },
+  {
+    "title": "Modification of Terms",
+    "body": "We reserve the right to modify or update these terms and conditions at any time without prior notice. It is the customer's responsibility to review the terms periodically for any changes."
+  }
+]

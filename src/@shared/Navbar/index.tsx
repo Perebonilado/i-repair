@@ -4,9 +4,12 @@ import Container from "@/@ui/Container";
 import Button from "@/@ui/Button";
 import Hamburger from "../Hamburger";
 import MobileNav from "../MobileNav";
+import { useRouter } from "next/router";
+import { NavLinks } from "@/navigation/NavLinks.enum";
 
 const Navbar: FC = () => {
   const [isMobileNav, setIsMobileNav] = useState(false);
+  const router = useRouter();
 
   return (
     <>
@@ -24,13 +27,20 @@ const Navbar: FC = () => {
                 title="Phone services"
                 variant="text"
                 className="!text-sm"
+                onClick={() => router.push(NavLinks.HOME + '#services')}
               />
               <Button
                 title="Laptop services"
                 variant="text"
                 className="!text-sm"
+                onClick={() => router.push(NavLinks.HOME + '#services')}
               />
-              <Button title="Our policy" variant="text" className="!text-sm" />
+              <Button
+                title="Our policy"
+                variant="text"
+                className="!text-sm"
+                onClick={() => router.push(NavLinks.POLICY)}
+              />
             </div>
             <div style={{ flex: 2 }} className="flex items-center justify-end">
               <a
