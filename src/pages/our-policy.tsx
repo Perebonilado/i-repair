@@ -1,11 +1,10 @@
 import TermConditionContainer from "@/@modules/terms-and-conditions/TermConditionContainer";
 import AppLayout from "@/layout/AppLayout";
-import { NextPage } from "next";
 import React from "react";
 import termConditionData from "../json-data/term-condition.json";
 import AppHead from "@/@shared/AppHead";
 
-const Policy: NextPage = () => {
+export default function Policy() {
   return (
     <>
       <AppHead title="Our Policy" />
@@ -14,6 +13,5 @@ const Policy: NextPage = () => {
       </AppLayout>
     </>
   );
-};
+}
 
-export default Policy;
