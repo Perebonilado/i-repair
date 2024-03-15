@@ -2,6 +2,8 @@ import React, { FC, useEffect } from "react";
 import { mobileScreenSizePx } from "../../constants";
 import Button from "@/@ui/Button";
 import cn from "classnames";
+import { useRouter } from "next/router";
+import { NavLinks } from "@/navigation/NavLinks.enum";
 
 interface Props {
   handleClose: () => void;
@@ -9,6 +11,7 @@ interface Props {
 }
 
 const MobileNav: FC<Props> = ({ handleClose, isSideNavOpen }) => {
+  const router = useRouter();
   const handleCloseOnResize = () => {
     if (window.innerWidth <= mobileScreenSizePx) {
       handleClose();
@@ -31,9 +34,19 @@ const MobileNav: FC<Props> = ({ handleClose, isSideNavOpen }) => {
   return (
     <div className={rootStyling}>
       <div className="flex flex-col items-center mt-32 gap-6 pb-10 border-b-2 border-b-gray-500">
-        <Button title="Phone services" variant="text" className="!text-lg" />
-        <Button title="Laptop services" variant="text" className="!text-lg" />
-        <Button title="Our policy" variant="text" className="!text-lg" />
+        <Button
+          title="Phone services"
+          variant="text"
+          className="!text-lg"
+          onClick={() => router.push(NavLinks.HOME + "#services")}
+        />
+        <Button
+          title="Laptop services"
+          variant="text"
+          className="!text-lg"
+          onClick={() => router.push(NavLinks.HOME + "#services")}
+        />
+        <Button title="Our policy" variant="text" className="!text-lg" onClick={() => router.push(NavLinks.POLICY)}/>
 
         <p className="text-[#1363FF] mt-20">For pricing and inquiries</p>
         <Button title="Contact us" size="large" />

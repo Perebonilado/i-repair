@@ -14,7 +14,7 @@ const Hamburger: FC<Props> = (props) => {
   });
   return (
     <div
-      className="w-[3px] h-[10px] flex-col justify-between cursor-pointer items-center hidden max-md:!flex"
+      className="w-[30px] h-[10px] flex-col justify-between cursor-pointer items-center hidden max-md:!flex"
       {...props}
     >
       <div className={topHamStyling}></div>
