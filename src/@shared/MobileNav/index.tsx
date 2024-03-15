@@ -38,15 +38,26 @@ const MobileNav: FC<Props> = ({ handleClose, isSideNavOpen }) => {
           title="Phone services"
           variant="text"
           className="!text-lg"
-          onClick={() => router.push(NavLinks.HOME + "#services")}
+          onClick={() => {
+            router.push(NavLinks.HOME + "#services");
+            handleClose();
+          }}
         />
         <Button
           title="Laptop services"
           variant="text"
           className="!text-lg"
-          onClick={() => router.push(NavLinks.HOME + "#services")}
+          onClick={() => {
+            router.push(NavLinks.HOME + "#services");
+            handleClose();
+          }}
         />
-        <Button title="Our policy" variant="text" className="!text-lg" onClick={() => router.push(NavLinks.POLICY)}/>
+        <Button
+          title="Our policy"
+          variant="text"
+          className="!text-lg"
+          onClick={() => router.push(NavLinks.POLICY)}
+        />
 
         <p className="text-[#1363FF] mt-20">For pricing and inquiries</p>
         <Button title="Contact us" size="large" />
