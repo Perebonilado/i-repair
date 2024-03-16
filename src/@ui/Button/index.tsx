@@ -1,4 +1,4 @@
-import React, { FC, HTMLAttributes, forwardRef } from "react";
+import React, { FC, HTMLAttributes } from "react";
 import s from "./styles.module.css";
 import cn from "classnames";
 import GradientText from "@/@shared/GradientText";
