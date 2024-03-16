@@ -1,6 +1,7 @@
 import Container from "@/@ui/Container";
 import React, { FC } from "react";
 import CustomerReviewItem from "../CustomerReviewItem";
+import AnimateUpTransition from "@/transitions/AnimateUp";
 
 const reviews = [
   "I was worried  about waiting too long but it was super convenient getting my iPhone fixed here",
@@ -20,7 +21,9 @@ const OurCustomers: FC = () => {
 
           <div className="flex items-center justify-center gap-16 mt-16 flex-wrap">
             {reviews.map((rev, idx) => (
-              <CustomerReviewItem review={rev} key={idx} />
+              <AnimateUpTransition key={idx}>
+                <CustomerReviewItem review={rev} />
+              </AnimateUpTransition>
             ))}
           </div>
         </div>

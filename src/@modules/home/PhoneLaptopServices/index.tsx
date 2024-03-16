@@ -4,6 +4,9 @@ import PhoneServiceTitle from "../PhoneServiceTitle";
 import Accordion from "@/@shared/Accordion";
 import { useRouter } from "next/router";
 import { ServicesNavigationIdEnum } from "@/navigation/ServicesNavigationIds";
+import AnimateRightTransition from "@/transitions/AnimateRight";
+import AnimateLeftTransition from "@/transitions/AnimateLeft";
+import ServiceItem from "../ServiceItem";
 
 interface Props {
   data: {
@@ -40,21 +43,18 @@ const PhoneLaptopService: FC<Props> = ({ data }) => {
       <Container>
         <div className="flex flex-col gap-16 py-20">
           {data.map((item, idx) => {
-            return (
-              <div
-                key={idx}
-                className="flex gap-3 max-md:flex-col"
-                id={item.navigationId}
-              >
-                <div style={{ flex: 1 }}>
-                  <PhoneServiceTitle
-                    titleOne={item.titleOne}
-                    titleTwo={item.titleTwo}
-                  />
-                </div>
-                <div style={{ flex: 1 }} className="max-md:mt-4">
-                  <Accordion data={item.accordionData} />
-                </div>
+            const isEven = idx % 2 === 0;
+            return isEven ? (
+              <div id={item.navigationId}>
+                <AnimateRightTransition key={idx}>
+                  <ServiceItem {...item} />
+                </AnimateRightTransition>
+              </div>
+            ) : (
+              <div id={item.navigationId}>
+                <AnimateLeftTransition key={idx}>
+                  <ServiceItem {...item} />
+                </AnimateLeftTransition>
               </div>
             );
           })}
