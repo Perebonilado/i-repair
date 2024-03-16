@@ -1,7 +1,6 @@
 import React, { FC, HTMLAttributes, forwardRef } from "react";
 import s from "./styles.module.css";
 import cn from "classnames";
-import { use } from "vue/types/umd.js";
 import GradientText from "@/@shared/GradientText";
 
 interface Props extends HTMLAttributes<HTMLButtonElement> {

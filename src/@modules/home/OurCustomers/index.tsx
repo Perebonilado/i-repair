@@ -12,9 +12,9 @@ const OurCustomers: FC = () => {
   return (
     <section className="bg-[#1363FF]">
       <Container>
-        <div className="bg-[#EAF1FF] py-20 text-center">
-          <h3 className="text-4xl font-bold">Our Customers</h3>
-          <p className="text-lg mt-4">
+        <div className="bg-[#EAF1FF] py-20 text-center px-4">
+          <h3 className="text-4xl font-bold max-md:text-2xl">Our Customers</h3>
+          <p className="text-lg mt-4 max-md:text-base">
             See what our customers have to say about our service.
           </p>
 

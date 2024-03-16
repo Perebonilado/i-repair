@@ -4,7 +4,7 @@ import React, { FC } from "react";
 
 const Footer: FC = () => {
   return (
-    <div className="py-16 text-base bg-[#1363FF] text-[#fff]">
+    <div className="py-16 text-base max-md:!text-sm bg-[#1363FF] text-[#fff]">
       <Container>
         <div className="flex justify-between max-sm:flex-col gap-5 max-sm:gap-14">
           <div className="flex flex-col gap-[5px]">
@@ -17,7 +17,7 @@ const Footer: FC = () => {
             </div>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-3">Follow us on:</h3>
+            <h3 className="text-lg font-bold mb-3 max-md:text-sm">Follow us on:</h3>
             <a className="cursor-pointer">
               <FacebookIcon />
             </a>
