@@ -32,9 +32,9 @@ const AccordionItem: FC<Props> = ({ id, body, title, isOpen, handleClick }) => {
         onClick={() => {
           handleClick(id);
         }}
-        className="flex items-center justify-between cursor-pointer p-4"
+        className="flex items-center justify-between cursor-pointer p-5"
       >
-        <p className="text-sm font-semibold">{title}</p>
+        <p className="text-lg font-bold">{title}</p>
         <div className={chevronContainerStyling}>
           <ChevronUp />
         </div>

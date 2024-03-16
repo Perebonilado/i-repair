@@ -8,7 +8,7 @@ interface Props {
 const CustomerReviewItem: FC<Props> = ({ review }) => {
   return (
     <div
-      className={`${s.borderStyling} bg-white flex items-center justify-center text-sm`}
+      className={`${s.borderStyling} bg-white text-[#959BA6] flex items-center justify-center text-lg font-semibold`}
     >
       <p className="p-4">
         <span className="text-[#1363FF] font-bold">“{" "}</span>

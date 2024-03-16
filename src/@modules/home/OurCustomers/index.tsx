@@ -1,8 +1,6 @@
-import Button from "@/@ui/Button";
 import Container from "@/@ui/Container";
 import React, { FC } from "react";
 import CustomerReviewItem from "../CustomerReviewItem";
-import ContactUs from "../ContactUs";
 
 const reviews = [
   "I was worried  about waiting too long but it was super convenient getting my iPhone fixed here",
@@ -15,12 +13,12 @@ const OurCustomers: FC = () => {
     <section className="bg-[#1363FF]">
       <Container>
         <div className="bg-[#EAF1FF] py-20 text-center">
-          <h3 className="text-3xl font-bold">Our Customers</h3>
-          <p className="text-base font-semibold mt-4">
+          <h3 className="text-4xl font-bold">Our Customers</h3>
+          <p className="text-lg mt-4">
             See what our customers have to say about our service.
           </p>
 
-          <div className="flex items-center justify-center gap-28 mt-16 flex-wrap">
+          <div className="flex items-center justify-center gap-16 mt-16 flex-wrap">
             {reviews.map((rev, idx) => (
               <CustomerReviewItem review={rev} key={idx} />
             ))}

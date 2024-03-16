@@ -8,8 +8,8 @@ interface Props {
 const PhoneServiceTitle: FC<Props> = ({ titleOne, titleTwo }) => {
   return (
     <div>
-      <div className="h-[4px] w-16 bg-[#1363FF] mb-2"></div>
-      <p className="text-lg font-bold">
+      <div className="h-[4px] w-24 bg-[#1363FF] mb-5"></div>
+      <p className="text-2xl font-bold">
         <span>
           {titleOne} {""}
         </span>
