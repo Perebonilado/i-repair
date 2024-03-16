@@ -7,18 +7,18 @@ const FullServiceRepair: FC = () => {
   return (
     <section className="bg-[#EAF1FF] pb-32">
       <Container>
-        <p className="text-[#959BA6] text-center">Trusted tech services</p>
+        <p className="text-[#959BA6] text-center text-xl">Trusted tech services</p>
         <div className="mt-20 flex gap-6 max-md:flex-col-reverse max-md:items-center">
           <div style={{ flex: 1 }}>
             <GradientText
               title="Full-service repair"
-              className="text-3xl font-bold"
+              className="text-4xl font-bold"
             />
-            <p className="mt-8 text-sm font-semibold">
+            <p className="mt-8 text-3xl font-semibold">
               We provide comprehensive repair services for a wide range of
               mobile devices and laptops.
             </p>
-            <p className="mt-8 text-sm">
+            <p className="mt-8 text-xl">
               Whether you're using an Android smartphone, an iOS device like an
               iPhone or iPad, or other operating systems, our expert technicians
               are here to help.
