@@ -21,24 +21,21 @@ const Navbar: FC = () => {
             </div>
             <div
               style={{ flex: 4 }}
-              className="flex items-center gap-9 justify-center max-md:hidden"
+              className="flex items-center gap-11 justify-center max-md:hidden"
             >
               <Button
                 title="Phone services"
                 variant="text"
-                className="!text-sm"
-                onClick={() => router.push(NavLinks.HOME + '#services')}
+                onClick={() => router.push(NavLinks.HOME + "#services")}
               />
               <Button
                 title="Laptop services"
                 variant="text"
-                className="!text-sm"
-                onClick={() => router.push(NavLinks.HOME + '#services')}
+                onClick={() => router.push(NavLinks.HOME + "#services")}
               />
               <Button
                 title="Our policy"
                 variant="text"
-                className="!text-sm"
                 onClick={() => router.push(NavLinks.POLICY)}
               />
             </div>
@@ -50,8 +47,9 @@ const Navbar: FC = () => {
                 <Button
                   title="Contact us"
                   variant="outlined"
-                  size="small"
+                  size="medium"
                   className="!px-8"
+                  useGragientText
                 />
               </a>
               <Hamburger

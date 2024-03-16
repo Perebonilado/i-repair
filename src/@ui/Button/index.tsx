@@ -1,6 +1,8 @@
 import React, { FC, HTMLAttributes, forwardRef } from "react";
 import s from "./styles.module.css";
 import cn from "classnames";
+import { use } from "vue/types/umd.js";
+import GradientText from "@/@shared/GradientText";
 
 interface Props extends HTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "text" | "outlined";
@@ -9,6 +11,7 @@ interface Props extends HTMLAttributes<HTMLButtonElement> {
   starticon?: React.ReactNode;
   endicon?: React.ReactNode;
   fullWidth?: boolean;
+  useGragientText?: boolean;
 }
 
 const Button: FC<Props> = ({
@@ -16,6 +19,7 @@ const Button: FC<Props> = ({
   size = "medium",
   title,
   fullWidth = false,
+  useGragientText = false,
   ...props
 }) => {
   const rootClassName = cn(
@@ -36,7 +40,7 @@ const Button: FC<Props> = ({
   return (
     <button {...props} className={rootClassName}>
       {props.starticon && props.starticon}
-      {title}
+      {useGragientText ? <GradientText title={title} /> : title}
       {props.endicon && props.endicon}
     </button>
   );

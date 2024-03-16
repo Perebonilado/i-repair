@@ -5,7 +5,7 @@ import Link from "next/link";
 const Logo: FC = () => {
   return (
     <Link href={'/'}>
-      <div className="relative h-14 w-14">
+      <div className="relative h-10 w-10">
         {" "}
         <Image
           layout="fill"
