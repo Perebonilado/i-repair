@@ -8,10 +8,10 @@ import Container from "@/@ui/Container";
 const Banner: FC = () => {
   return (
     <section
-      className={`${s.bannerBg} min-h-[calc(100vh+70px)] flex flex-col items-center max-sm:justify-center`}
+      className={`${s.bannerBg} min-h-screen flex flex-col items-center justify-center`}
     >
       <Container>
-        <div className="flex flex-col gap-32 text-center items-center sm:pt-40 max-sm:justify-center">
+        <div className="flex flex-col gap-32 text-center items-center max-sm:justify-center">
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-5xl font-bold max-md:text-3xl max-md:leading-relaxed">
               Restore your device with{" "}
@@ -22,7 +22,7 @@ const Banner: FC = () => {
               Simply hand it to us and we’ll take care of the repair!
             </p>
           </div>
-          <div className="border w-full">
+          <div className="w-full">
             <Button
               title="Start fixing"
               size="large"
