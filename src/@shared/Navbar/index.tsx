@@ -26,12 +26,24 @@ const Navbar: FC = () => {
               <Button
                 title="Phone services"
                 variant="text"
-                onClick={() => router.push(NavLinks.HOME + "#services")}
+                onClick={() =>
+                  router.push(
+                    NavLinks.HOME,
+                    { query: { id: "phone-services" } },
+                    { shallow: true }
+                  )
+                }
               />
               <Button
                 title="Laptop services"
                 variant="text"
-                onClick={() => router.push(NavLinks.HOME + "#services")}
+                onClick={() =>
+                  router.push(
+                    NavLinks.HOME,
+                    { query: { id: "laptop-services" } },
+                    { shallow: true }
+                  )
+                }
               />
               <Button
                 title="Our policy"

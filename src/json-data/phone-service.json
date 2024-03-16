@@ -2,6 +2,7 @@
   {
     "titleOne": "Phone",
     "titleTwo": "services",
+    "navigationId": "phone-services",
     "accordionData": [
       {
         "id": 1,
@@ -33,6 +34,7 @@
   {
     "titleOne": "Laptop",
     "titleTwo": "services",
+    "navigationId": "laptop-services",
     "accordionData": [
       {
         "id": 1,

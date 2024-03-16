@@ -39,7 +39,11 @@ const MobileNav: FC<Props> = ({ handleClose, isSideNavOpen }) => {
           variant="text"
           className="!text-lg"
           onClick={() => {
-            router.push(NavLinks.HOME + "#services");
+            router.push(
+              NavLinks.HOME,
+              { query: { id: "phone-services" } },
+              { shallow: true }
+            );
             handleClose();
           }}
         />
@@ -48,7 +52,11 @@ const MobileNav: FC<Props> = ({ handleClose, isSideNavOpen }) => {
           variant="text"
           className="!text-lg"
           onClick={() => {
-            router.push(NavLinks.HOME + "#services");
+            router.push(
+              NavLinks.HOME,
+              { query: { id: "laptop-services" } },
+              { shallow: true }
+            );
             handleClose();
           }}
         />
