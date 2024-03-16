@@ -9,7 +9,7 @@ interface Props {
   data: {
     titleOne: string;
     titleTwo: string;
-    navigationId: ServicesNavigationIdEnum;
+    navigationId: string;
     accordionData: {
       id: number;
       body: string;
