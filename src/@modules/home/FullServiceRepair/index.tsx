@@ -24,7 +24,7 @@ const FullServiceRepair: FC = () => {
               are here to help.
             </p>
           </div>
-          <div style={{ flex: 1 }} className="relative w-full min-h-64 max-md:!min-h-72 border">
+          <div style={{ flex: 1 }} className="relative w-full min-h-64 max-md:!min-h-72">
             <Image
               layout="fill"
               objectFit="contain"

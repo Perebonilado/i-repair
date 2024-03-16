@@ -27,7 +27,7 @@ const Banner: FC = () => {
               title="Start fixing"
               size="large"
               endicon={<ArrowDiagonalUpRightIcon />}
-              className="mx-auto !px-20 !text-xl max-sm:!w-full"
+              className="mx-auto md:!px-20 md:!text-xl max-sm:!w-full"
             />
           </div>
         </div>
