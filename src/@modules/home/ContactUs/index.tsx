@@ -6,7 +6,7 @@ const ContactUs: FC = () => {
   return (
     <section className="bg-[#1363FF] border-b">
       <Container>
-        <div className="flex flex-col items-center text-center text-white py-14">
+        <div className="flex flex-col items-center text-center text-white py-20">
           <p className="font-semibold text-3xl">
             The Trusted tech repair service in the DMV region.
           </p>
