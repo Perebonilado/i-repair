@@ -29,7 +29,7 @@ const PhoneLaptopService: FC<Props> = ({ data }) => {
                     titleTwo={item.titleTwo}
                   />
                 </div>
-                <div style={{ flex: 1 }}>
+                <div style={{ flex: 1 }} className="max-md:mt-4">
                   <Accordion data={item.accordionData} />
                 </div>
               </div>
