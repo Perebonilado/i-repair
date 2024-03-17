@@ -7,11 +7,10 @@ import WhyChooseUs from "@/@modules/home/WhyChooseUs";
 import OurCustomers from "@/@modules/home/OurCustomers";
 import ContactUs from "@/@modules/home/ContactUs";
 import AppHead from "@/@shared/AppHead";
-import FadeInTransition from "@/transitions/FadeIn";
 
 export default function Home() {
   return (
-    <FadeInTransition>
+    <>
       <AppHead />
       <AppLayout>
         <Banner />
@@ -21,6 +20,6 @@ export default function Home() {
         <OurCustomers />
         <ContactUs />
       </AppLayout>
-    </FadeInTransition>
+    </>
   );
 }
