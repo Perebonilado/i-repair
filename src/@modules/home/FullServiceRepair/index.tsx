@@ -31,7 +31,7 @@ const FullServiceRepair: FC = () => {
           </div>
           <div style={{ flex: 1 }} className="w-full">
             <AnimateUpTransition>
-              <div className="relative w-full min-h-64 max-md:!min-h-72">
+              <div className="relative w-full min-h-80 max-md:!min-h-72">
                 <Image
                   layout="fill"
                   objectFit="contain"
