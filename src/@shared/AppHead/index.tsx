@@ -18,7 +18,7 @@ const AppHead: FC<Props> = ({ title }) => {
         name="keywords"
         content="phone repair, phone repair shops in silver spring  maryland, laptop repair in silver spring maryland, laptop repair, fix my phone, fix my laptop, phone repairers, laptop repairer, fix my mac, fix my pc, iphone repair, phone fix, iphone fix, samsung repair, my iphone has issues, my phone is bad"
       />
-      <meta property="og:title" content="iRepair | Restore your device with iRepair" />
+      <meta property="og:title" content="iRepair: Restore your device with iRepair" />
       <meta
         property="og:description"
         content="We provide comprehensive repair services for a wide range of mobile devices and laptops."
