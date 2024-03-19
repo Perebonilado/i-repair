@@ -6,7 +6,7 @@ import React, { FC } from "react";
 
 const FullServiceRepair: FC = () => {
   return (
-    <section className="bg-[#EAF1FF] pb-32">
+    <section className="bg-[#EAF1FF] py-32">
       <Container>
         <p className="text-[#959BA6] text-center text-xl">
           Trusted tech services

@@ -14,13 +14,13 @@ import BannerClouds from "../BannerClouds";
 const Banner: FC = () => {
   return (
     <section
-      className={`${s.bannerBg} min-h-[calc(100vh+120px)] flex flex-col items-center relative`}
+      className={`${s.bannerBg} min-h-screen flex flex-col items-center relative justify-center`}
     >
-      <BannerClouds />
+      {/* <BannerClouds /> */}
 
       <Container>
-        <div className="flex flex-col gap-32 text-center items-center max-sm:justify-center">
-          <div className="flex flex-col items-center relative z-10 justify-center mt-40">
+        <div className="flex flex-col gap-32 text-center items-center justify-center">
+          <div className="flex flex-col items-center relative z-10 justify-center ">
             <BannerHeaderTransition>
               <h1 className="text-5xl font-bold max-md:text-3xl max-md:leading-relaxed">
                 Restore your device with{" "}
