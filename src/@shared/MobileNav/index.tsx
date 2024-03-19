@@ -25,7 +25,7 @@ const MobileNav: FC<Props> = ({ handleClose, isSideNavOpen }) => {
   }, []);
 
   const rootStyling = cn(
-    "bg-white transition-all w-screen z-[900] fixed top-20",
+    "bg-white transition-all w-screen z-[2500] fixed top-20 h-[calc(100vh-80px)]",
     {
       "translate-x-[100%]": !isSideNavOpen,
     }
@@ -33,7 +33,7 @@ const MobileNav: FC<Props> = ({ handleClose, isSideNavOpen }) => {
 
   return (
     <div className={rootStyling}>
-      <div className="flex flex-col items-center mt-32 gap-6 pb-10 border-b-2 border-b-gray-500">
+      <div className="flex flex-col items-center mt-32 gap-6 pb-10">
         <Button
           title="Phone services"
           variant="text"
