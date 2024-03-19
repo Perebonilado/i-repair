@@ -18,7 +18,7 @@ const FullServiceRepair: FC = () => {
                 title="Full-service repair"
                 className="text-4xl font-bold max-md:text-2xl"
               />
-              <p className="mt-8 text-xl max-md:text-xl">
+              <p className="mt-8 text-xl max-md:text-base">
                 We provide comprehensive repair services for a wide range of
                 mobile devices and laptops.
               </p>
