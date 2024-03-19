@@ -14,7 +14,7 @@ const WhyChooseUs: FC = () => {
   ];
 
   return (
-    <section className="text-white bg-[#1363FF] py-14 pb-24">
+    <section className="text-white bg-[#1363FF] py-14 pb-36">
       <Container className={"relative"}>
         <div className="mx-auto w-full max-w-[530px] py-10 text-center relative min-h-[430px] max-sm:min-h-[630px]">
           <AnimateDownTransition>
@@ -28,11 +28,11 @@ const WhyChooseUs: FC = () => {
             </p>
           </AnimateDownTransition>
           <AnimateUpTransition>
-            <div className="mt-10 flex flex-wrap max-sm:flex-col justify-center gap-6">
+            <div className="mt-24 flex flex-wrap max-sm:flex-col justify-center gap-6">
               {tags.map((tag, idx) => {
                 return (
                   <p
-                    className="text-xl font-semibold max-md:text-base"
+                    className="text-xl font-semibold max-md:text-base text-[#ffffff83]"
                     key={idx}
                   >
                     {tag}
@@ -46,7 +46,7 @@ const WhyChooseUs: FC = () => {
         <div className="absolute bottom-0 left-0">
           <div
             style={{ flex: 1 }}
-            className="relative w-[320px] min-h-[450px] top-[100px] max-md:w-[250px]"
+            className="relative w-[320px] min-h-[450px] top-[160px] max-md:w-[250px]"
           >
             <Image
               layout="fill"

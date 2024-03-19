@@ -6,27 +6,27 @@
     "accordionData": [
       {
         "id": 1,
-        "body": "string",
+        "body": "If your phone battery drains rapidly, suddenly shuts down or is unable to hold a charge, it is within our expertise to diagnose the problem and find the best solution. iRepair ensures proper installation and calibration of phone batteries to restore performance.",
         "title": "Battery"
       },
       {
         "id": 2,
-        "body": "string",
+        "body": "Due to physical wear and tear, water damage or dust accumulation, your charging port may become damaged. If there is a loose connection or no response when plugged in, a replacement could be required. However severe, iRepair’s technical expertise ensures your phone’s port performs safely and reliably.",
         "title": "Charging port"
       },
       {
         "id": 3,
-        "body": "string",
+        "body": "Symptoms like distorted sound, no sound output, or crackling noises often signal speaker damage. At iRepair, we are committed to delivering precise repairs that restore your phone's sound quality and overall device integrity.",
         "title": "Speaker"
       },
       {
         "id": 4,
-        "body": "string",
+        "body": "Your mobile phone's microphone can fail due to various factors, including physical damage, exposure to moisture, or software glitches. At iRepair, we diagnose the issue before reaching any conclusions, ensuring a satisfactory repair outcome every time.",
         "title": "Microphone"
       },
       {
         "id": 5,
-        "body": "string",
+        "body": "Cracked or shattered phone screens are among the most common issues we address at iRepair. We prioritize delicate handling throughout the replacement process, safeguarding your device from any additional damage to its components.",
         "title": "Screen"
       }
     ]
@@ -38,22 +38,22 @@
     "accordionData": [
       {
         "id": 1,
-        "body": "string",
+        "body": "From upgrades to installations, iRepair  offers the best quality enhancements to your computer’s performance.",
         "title": "Hardware installation"
       },
       {
         "id": 2,
-        "body": "string",
+        "body": "Whether your laptop’s charging port is loose, damaged, or completely unresponsive, iRepair has the tools and expertise to restore it to optimal condition. By only using genuine replacement parts, we ensure compatibility and longevity in all port repairs.",
         "title": "Charging port"
       },
       {
         "id": 3,
-        "body": "string",
+        "body": "At iRepair we precisely disassemble your laptop if it needs a screen or hinge replacement. We prioritize delicate handling throughout the replacement process, safeguarding your device from any additional damage to its components. ",
         "title": "Screen"
       },
       {
         "id": 4,
-        "body": "string",
+        "body": "At iRepair, we employ expert techniques to address common keyboard issues such as stuck or unresponsive keys, liquid damage, or worn-out mechanisms.  Tests are conducted afterwards ensuring a satisfactory repair outcome every time.",
         "title": "Keyboard"
       }
     ]

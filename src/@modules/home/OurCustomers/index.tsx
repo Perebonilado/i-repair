@@ -4,9 +4,21 @@ import CustomerReviewItem from "../CustomerReviewItem";
 import AnimateUpTransition from "@/transitions/AnimateUp";
 
 const reviews = [
-  "I was worried  about waiting too long but it was super convenient getting my iPhone fixed here",
-  "Really good customer service here, i’d recommend them to anyone looking for repairs.",
-  "Thought I had to completely replace my laptop, but they explained the issue and restored it at a decent price.",
+  {
+    review:
+      "I was worried  about waiting too long but it was super convenient getting my iPhone fixed here",
+    customerName: "Mike S.",
+  },
+  {
+    review:
+      "Really good customer service here, i’d recommend them to anyone looking for repairs.",
+    customerName: "Cindy M.",
+  },
+  {
+    review:
+      "Thought I had to completely replace my laptop, but they explained the issue and restored it at a decent price.",
+    customerName: "Chris L.",
+  },
 ];
 
 const OurCustomers: FC = () => {
@@ -22,7 +34,7 @@ const OurCustomers: FC = () => {
           <div className="flex items-center justify-center gap-16 mt-16 flex-wrap">
             {reviews.map((rev, idx) => (
               <AnimateUpTransition key={idx}>
-                <CustomerReviewItem review={rev} />
+                <CustomerReviewItem {...rev} />
               </AnimateUpTransition>
             ))}
           </div>

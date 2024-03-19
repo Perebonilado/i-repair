@@ -11,14 +11,14 @@ const FullServiceRepair: FC = () => {
         <p className="text-[#959BA6] text-center text-xl">
           Trusted tech services
         </p>
-        <div className="mt-20 flex gap-6 max-md:flex-col-reverse max-md:items-center">
+        <div className="mt-28 flex gap-6 max-md:flex-col-reverse max-md:items-center">
           <div style={{ flex: 1 }}>
             <AnimateUpTransition>
               <GradientText
                 title="Full-service repair"
                 className="text-4xl font-bold max-md:text-2xl"
               />
-              <p className="mt-8 text-3xl font-semibold max-md:text-xl">
+              <p className="mt-8 text-xl max-md:text-xl">
                 We provide comprehensive repair services for a wide range of
                 mobile devices and laptops.
               </p>

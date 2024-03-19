@@ -28,10 +28,10 @@ const Banner: FC = () => {
               </h1>
             </BannerHeaderTransition>
             <HeaderDivisionTransition>
-              <div className="bg-[#1363FF] h-[2px] w-[350px] mt-10 max-md:hidden"></div>
+              <div className="bg-[#1363FF] h-[1px] w-[300px] mt-10 max-md:hidden"></div>
             </HeaderDivisionTransition>
             <BannerSubHeaderTransition>
-              <p className="text-xl mt-8 font-semibold w-full max-w-[450px] max-md:text-lg">
+              <p className="text-xl mt-8 w-full max-w-[450px] max-md:text-lg">
                 Simply hand it to us and we’ll take care of the repair!
               </p>
             </BannerSubHeaderTransition>
@@ -42,7 +42,7 @@ const Banner: FC = () => {
               title="Start fixing"
               size="large"
               endicon={<ArrowDiagonalUpRightIcon />}
-              className="mx-auto md:!px-20 md:!text-xl max-sm:!w-full"
+              className="mx-auto md:!px-20 md:!text-xl max-sm:!w-full mt-10"
             />
           </div>
         </div>

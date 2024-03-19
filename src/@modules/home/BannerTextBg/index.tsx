@@ -3,8 +3,8 @@ import React, { FC } from "react";
 
 const BannerTextBg: FC = () => {
   return (
-    <div className="absolute min-h-80 w-full -bottom-[50%] max-md:-bottom-[80%] -translate-x-12 -z-10">
-      <div className="relative w-[calc(100%+100px)] min-h-80">
+    <div className="absolute min-h-80 w-full -bottom-[400px] max-md:-bottom-[450px] -translate-x-36 -z-10">
+      <div className="relative w-[calc(100%+300px)] min-h-[1000px]">
         <Image
           layout="fill"
           objectFit="contain"
