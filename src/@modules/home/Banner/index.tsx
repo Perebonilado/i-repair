@@ -28,7 +28,7 @@ const Banner: FC = () => {
               </h1>
             </BannerHeaderTransition>
             <HeaderDivisionTransition>
-              <div className="bg-[#1363FF] h-[1px] w-[300px] mt-10 max-md:hidden"></div>
+              <div className="bg-[#1363FF] h-[1px] w-[300px] mt-10"></div>
             </HeaderDivisionTransition>
             <BannerSubHeaderTransition>
               <p className="text-xl mt-8 w-full max-w-[450px] max-md:text-lg">
