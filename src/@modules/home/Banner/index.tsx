@@ -40,7 +40,7 @@ const Banner: FC = () => {
           <div className="w-full">
             <a
               href="https://docs.google.com/forms/d/1ZNv-ZDPI6VX4jWFUofLp_SEj712Atd63xioj6WRJ7Kk/edit?ts=65f9b5a5"
-              className="w-full cursor-pointer relative z-[2000]"
+              className="w-full h-full block cursor-pointer relative z-[2000]"
               target="_blank"
             >
               <Button
