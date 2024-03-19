@@ -13,7 +13,7 @@ const Navbar: FC = () => {
 
   return (
     <>
-      <div className="bg-[#EAF1FF] shadow-md fixed w-screen top-0 left-0 z-[1000]">
+      <div className="bg-[#EAF1FF] shadow-md fixed w-screen top-0 left-0 z-[3000]">
         <Container>
           <div className="h-20 flex">
             <div style={{ flex: 2 }} className="flex items-center">
