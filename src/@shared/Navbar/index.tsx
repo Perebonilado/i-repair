@@ -53,7 +53,8 @@ const Navbar: FC = () => {
             </div>
             <div style={{ flex: 2 }} className="flex items-center justify-end">
               <a
-                href="mailto:irepairtechsolution@gmail.com"
+                href="https://docs.google.com/forms/d/1ZNv-ZDPI6VX4jWFUofLp_SEj712Atd63xioj6WRJ7Kk/edit?ts=65f9b5a5"
+                target="_blank"
                 className="max-md:hidden"
               >
                 <Button

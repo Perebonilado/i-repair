@@ -38,12 +38,18 @@ const Banner: FC = () => {
             <BannerTextBg />
           </div>
           <div className="w-full">
-            <Button
-              title="Start fixing"
-              size="large"
-              endicon={<ArrowDiagonalUpRightIcon />}
-              className="mx-auto md:!px-20 md:!text-xl max-sm:!w-full mt-10"
-            />
+            <a
+              href="https://docs.google.com/forms/d/1ZNv-ZDPI6VX4jWFUofLp_SEj712Atd63xioj6WRJ7Kk/edit?ts=65f9b5a5"
+              className="w-full cursor-pointer relative z-[2000]"
+              target="_blank"
+            >
+              <Button
+                title="Start fixing"
+                size="large"
+                endicon={<ArrowDiagonalUpRightIcon />}
+                className="mx-auto md:!px-20 md:!text-xl max-sm:!w-full mt-10"
+              />
+            </a>
           </div>
         </div>
       </Container>
