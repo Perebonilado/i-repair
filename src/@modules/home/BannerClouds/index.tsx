@@ -7,8 +7,8 @@ const BannerClouds: FC = () => {
       <div className="relative w-full min-h-80">
         <Image
           layout="fill"
-          objectFit="contain"
-          objectPosition="50% 100%"
+          objectFit="cover"
+          objectPosition="0% 100%"
           src={"/assets/home/bottom-cloud.png"}
           alt="irepair background"
         />
