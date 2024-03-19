@@ -68,7 +68,13 @@ const MobileNav: FC<Props> = ({ handleClose, isSideNavOpen }) => {
         />
 
         <p className="text-[#1363FF] mt-20">For pricing and inquiries</p>
-        <Button title="Contact us" size="large" />
+
+        <a
+          href="https://docs.google.com/forms/d/1ZNv-ZDPI6VX4jWFUofLp_SEj712Atd63xioj6WRJ7Kk/edit?ts=65f9b5a5"
+          target="_blank"
+        >
+          <Button title="Contact us" size="large" />
+        </a>
       </div>
     </div>
   );
