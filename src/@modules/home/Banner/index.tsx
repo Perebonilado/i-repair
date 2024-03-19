@@ -7,17 +7,13 @@ import Container from "@/@ui/Container";
 import BannerHeaderTransition from "../Transitions/BannerHeaderTransition";
 import BannerSubHeaderTransition from "../Transitions/BannerSubHeaderTransition";
 import HeaderDivisionTransition from "../Transitions/HeaderDivisionTransition";
-import Image from "next/image";
 import BannerTextBg from "../BannerTextBg";
-import BannerClouds from "../BannerClouds";
 
 const Banner: FC = () => {
   return (
     <section
       className={`${s.bannerBg} min-h-screen flex flex-col items-center relative justify-center`}
     >
-      {/* <BannerClouds /> */}
-
       <Container>
         <div className="flex flex-col gap-32 text-center items-center justify-center">
           <div className="flex flex-col items-center relative z-10 justify-center ">
